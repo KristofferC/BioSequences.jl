@@ -8,7 +8,7 @@
 ### License is MIT: https://github.com/BioJulia/BioSequences.jl/blob/master/LICENSE.md
 
 import Random: Sampler, rand!
-const DEFAULT_RNG = StableRNG(rand(Int) & typemax(Int))
+const DEFAULT_RNG = StableRNG(0)
 
 """
     SamplerUniform{T}
